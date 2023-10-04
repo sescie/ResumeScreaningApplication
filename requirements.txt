@@ -1,2 +1,3 @@
+cmake
 nltk
 scikit-learn==0.19.2
