@@ -1,4 +1,4 @@
-spicy
+scipy
 numpy
 cmake
 nltk
