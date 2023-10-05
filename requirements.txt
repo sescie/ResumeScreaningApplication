@@ -3,4 +3,4 @@ numpy
 NumPy >= 1.8.2
 cmake
 nltk
-scikit-learn==0.19.2
+scikit-learn
