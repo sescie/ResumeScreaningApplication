@@ -58,4 +58,4 @@ if click:
     match = round(match,2)
     st.write("Match Percentage: ",match,"%")
 
-st.caption(" ~ made by siddhraj")
+st.caption(" ~ made by T. Kasirai R204450W and Samuel Singende R204440W")
