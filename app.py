@@ -23,6 +23,7 @@ try:
     with pdfplumber.open(uploadedJD) as pdf:
         pages = pdf.pages[0]
         job_description = pages.extract_text()
+        
 
 except:
     st.write("")
@@ -57,5 +58,10 @@ if click:
     match = getResult(job_description,resume)
     match = round(match,2)
     st.write("Match Percentage: ",match,"%")
+    if match > 70:
+        st.write('shortlisted')
+    else:
+        st.write('declined')
+        
 
 st.caption(" ~ made by T. Kasirai R204450W and Samuel Singende R204440W")
