@@ -58,10 +58,10 @@ if click:
     match = getResult(job_description,resume)
     match = round(match,2)
     st.write("Match Percentage: ",match,"%")
-    if match > 70:
-        st.write('shortlisted')
+    if match > 60:
+        st.write('candidate has been shortlisted')
     else:
-        st.write('declined')
+        st.write('candidate has been declined')
         
 
 st.caption(" ~ made by T. Kasirai R204450W and Samuel Singende R204440W")
