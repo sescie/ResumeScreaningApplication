@@ -1,8 +1,7 @@
+import streamlit as st
 import pickle
 import re
 import nltk
-import streamlit as st
-from sklearn.svm import SVC
 
 nltk.download('punkt')
 nltk.download('stopwords')
